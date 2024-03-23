@@ -84,7 +84,7 @@ if __name__ == '__main__':
     
     pSize = 100
     dSize = 100
-    maxIte = 1000
+    maxIte = 500
     bestFitness = []
     bestSolution = []
     print('---Generating Population---')
@@ -154,6 +154,7 @@ if __name__ == '__main__':
         plt.pause(0.01)
     
     plt.show()
+    print('Best Chromose: {}'.format(bestSolution[len(bestSolution)-1]))
     
     
     
