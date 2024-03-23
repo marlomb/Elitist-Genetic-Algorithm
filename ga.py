@@ -154,8 +154,8 @@ if __name__ == '__main__':
         plt.pause(0.01)
     
     plt.show()
-    print('Best Chromose: {}'.format(bestSolution[len(bestSolution)-1]))
     
+    print('Best Chromose: {}'.format(bestSolution[len(bestSolution)-1]))
     
     
     
