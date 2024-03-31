@@ -9,7 +9,7 @@ import random
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
-#---Binary GA-----#
+#---Binary GA for Maximization Problem-----#
 
 def fitness(c):
     
