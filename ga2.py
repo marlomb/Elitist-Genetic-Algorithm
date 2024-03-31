@@ -125,7 +125,6 @@ if __name__ == '__main__':
         if fitness(m1) < fitness(p1):
             pop[pop.index(p1)] = m1
         if fitness(m2) < fitness(p2):
-            print('Checking fitness of p2')
             pop[pop.index(p2)] = m2
         
         fValue = []
