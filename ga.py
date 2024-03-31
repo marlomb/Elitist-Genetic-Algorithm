@@ -35,6 +35,7 @@ def selection(pop, fValue):
     
     for f in fValue:
         if f > f1:
+            f2 = f1
             f1 = f
         if f > f2 and f < f1:
             f2 = f
